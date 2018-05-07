@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraActivity">
+
+    <EditText
+        android:id="@+id/txtOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="130dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtOperacion"
+        android:text="@string/plus" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="130dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/txtOperacion"
+        android:layout_toEndOf="@+id/btnSumar"
+        android:text="@string/minus" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="130dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/txtOperacion"
+        android:layout_toEndOf="@+id/btnRestar"
+        android:text="@string/duplicate" />
+
+    <TextView
+        android:id="@+id/lbResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:textSize="74dp"
+        android:textColor="#000000"
+        android:text="" />
+</RelativeLayout>

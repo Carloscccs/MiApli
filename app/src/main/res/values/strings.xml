@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MiApli</string>
+    <string name="btn1text">Ir a v2</string>
+    <string name="textov2">Hola we!</string>
+    <string name="plus">Sumar +2</string>
+    <string name="minus">Restar - 2</string>
+    <string name="duplicate">Multiplicar *2</string>
+    <string name="btnCalculadora">Ir a calculadora</string>
+</resources>
